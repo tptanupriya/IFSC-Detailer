@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Get the complete information about your bank just by entering your IFSC code.">
+    <meta name="keywords" content="ifsc code, ifsc, bank details, tanu, tanu priya">
+    <meta name="author" content="tanu priya">
+    <title>IFSC Detailer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Background Overlay -->
+    <div class="background-overlay"></div>
+
+    <section class="intro-content text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-11 col-md-8 mx-auto">
+                    <h2>IFSC Detailer</h2>
+                    <p>Get the complete information about your bank just by entering the IFSC code</p>
+                    <button type="button" class="btn btn-secondary" data-toggle="popover" data-placement="top" title=""
+                        data-content="PUNB0758300">
+                        Sample Data
+                    </button>
+                    <!-- Form -->
+                    <form id="bank" class="form-group">
+                        <input type="text" id="ifsc" class="form-control my-3" placeholder="Enter IFSC Code">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Output -->
+    <div class="container">
+        <section id="output" class="text-white"></section>
+    </div>
+
+    <div class="container text-center mt-5">
+        <p style="font-size:22px">Designed & Developed By Tanu Priya</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
